@@ -1,0 +1,502 @@
+[
+  {
+    "id": 0,
+    "name": "The DOMinator",
+    "img": "ajStylesAndUndertaker.jpg",
+    "dankness": 78,
+    "virality": 64,
+    "cringe": 32,
+    "longevity": 55,
+    "power": 83
+  },
+  {
+    "id": 1,
+    "name": "Callback Ancient Theory",
+    "img": "ancientAliens.jpg",
+    "dankness": 62,
+    "virality": 58,
+    "cringe": 41,
+    "longevity": 47,
+    "power": 69
+  },
+  {
+    "id": 2,
+    "name": "Morning Homework Judgement",
+    "img": "animeGirlHidingFromTerminator.jpg",
+    "dankness": 74,
+    "virality": 59,
+    "cringe": 28,
+    "longevity": 52,
+    "power": 81
+  },
+  {
+    "id": 4,
+    "name": "Assignement Facepalm",
+    "img": "badBunnyGrammyWtf.jpg",
+    "dankness": 57,
+    "virality": 63,
+    "cringe": 46,
+    "longevity": 51,
+    "power": 68
+  },
+  {
+    "id": 5,
+    "name": "Flex-Slap Centering",
+    "img": "batmanSlappingRobin.jpg",
+    "dankness": 71,
+    "virality": 66,
+    "cringe": 34,
+    "longevity": 49,
+    "power": 77
+  },
+  {
+    "id": 6,
+    "name": "One Var To Rule Them All",
+    "img": "bilbo.jpg",
+    "dankness": 69,
+    "virality": 61,
+    "cringe": 37,
+    "longevity": 54,
+    "power": 72
+  },
+  {
+    "id": 7,
+    "name": "Soviet Scope",
+    "img": "bugsBunnyCommunist.jpg",
+    "dankness": 76,
+    "virality": 67,
+    "cringe": 38,
+    "longevity": 53,
+    "power": 79
+  },
+  {
+    "id": 8,
+    "name": "Walker Scope Ranger",
+    "img": "chuckNorris.jpg",
+    "dankness": 73,
+    "virality": 65,
+    "cringe": 36,
+    "longevity": 56,
+    "power": 88
+  },
+  {
+    "id": 9,
+    "name": "Bugfix Nuclear Option",
+    "img": "disasterGirl.jpg",
+    "dankness": 82,
+    "virality": 74,
+    "cringe": 29,
+    "longevity": 58,
+    "power": 91
+  },
+  {
+    "id": 10,
+    "name": "You Used To Call Me On My For Loop",
+    "img": "drakeYesNo.jpg",
+    "dankness": 68,
+    "virality": 62,
+    "cringe": 31,
+    "longevity": 57,
+    "power": 73
+  },
+  {
+    "id": 11,
+    "name": "Ternary Appreciation",
+    "img": "epstein.jpg",
+    "dankness": 63,
+    "virality": 58,
+    "cringe": 99,
+    "longevity": 49,
+    "power": 71
+  },
+  {
+    "id": 12,
+    "name": "Darkside Validation",
+    "img": "evilKermit.jpg",
+    "dankness": 72,
+    "virality": 63,
+    "cringe": 44,
+    "longevity": 55,
+    "power": 78
+  },
+  {
+    "id": 13,
+    "name": "Flex Tape Layout Fix",
+    "img": "flexTape.jpg",
+    "dankness": 70,
+    "virality": 60,
+    "cringe": 26,
+    "longevity": 48,
+    "power": 75
+  },
+  {
+    "id": 14,
+    "name": "Callback Confusion Grandma",
+    "img": "grandmaFindTheInternet.jpg",
+    "dankness": 67,
+    "virality": 64,
+    "cringe": 39,
+    "longevity": 50,
+    "power": 74
+  },
+  {
+    "id": 15,
+    "name": "CSS Funeral",
+    "img": "grantGustinOverGrave.jpg",
+    "dankness": 78,
+    "virality": 72,
+    "cringe": 33,
+    "longevity": 57,
+    "power": 84
+  },
+  {
+    "id": 16,
+    "name": "Samuel Reaper Saga",
+    "img": "grimReaperKnockingOnDoor.jpg",
+    "dankness": 79,
+    "virality": 73,
+    "cringe": 35,
+    "longevity": 58,
+    "power": 99
+  },
+  {
+    "id": 17,
+    "name": "Ternary HR Violation",
+    "img": "helloHumanResources.jpg",
+    "dankness": 74,
+    "virality": 69,
+    "cringe": 80,
+    "longevity": 52,
+    "power": 80
+  },
+  {
+    "id": 18,
+    "name": "Heeeeere's Vaaaar",
+    "img": "heresJohnny.jpg",
+    "dankness": 81,
+    "virality": 70,
+    "cringe": 38,
+    "longevity": 56,
+    "power": 88
+  },
+  {
+    "id": 19,
+    "name": "Tutor Motivational Drowning",
+    "img": "highFiveDrown.jpg",
+    "dankness": 83,
+    "virality": 76,
+    "cringe": 42,
+    "longevity": 59,
+    "power": 89
+  },
+  {
+    "id": 20,
+    "name": "Output Anxiety Homer",
+    "img": "homerDisappearsIntoBush.gif",
+    "dankness": 71,
+    "virality": 68,
+    "cringe": 34,
+    "longevity": 55,
+    "power": 77
+  },
+  {
+    "id": 21,
+    "name": "Callback Immaginary Cheating",
+    "img": "iBetHesThinkingAboutOtherWomen.jpg",
+    "dankness": 76,
+    "virality": 71,
+    "cringe": 37,
+    "longevity": 54,
+    "power": 82
+  },
+  {
+    "id": 22,
+    "name": "Validation Scam Offer",
+    "img": "iReceiveYouReceive.jpg",
+    "dankness": 79,
+    "virality": 74,
+    "cringe": 36,
+    "longevity": 53,
+    "power": 85
+  },
+  {
+    "id": 23,
+    "name": "Semicolon Somelier",
+    "img": "leonardoDiCaprioCheers.jpg",
+    "dankness": 72,
+    "virality": 67,
+    "cringe": 33,
+    "longevity": 58,
+    "power": 78
+  },
+  {
+    "id": 24,
+    "name": "5:59 PM Debug Desperation",
+    "img": "loisPills.jpg",
+    "dankness": 74,
+    "virality": 68,
+    "cringe": 39,
+    "longevity": 52,
+    "power": 81
+  },
+  {
+    "id": 25,
+    "name": "HTML Overthinking Simulator",
+    "img": "mathLady.jpg",
+    "dankness": 71,
+    "virality": 64,
+    "cringe": 35,
+    "longevity": 50,
+    "power": 77
+  },
+  {
+    "id": 26,
+    "name": "We're Doing Our Best Okay?",
+    "img": "mockingSpongebob.jpg",
+    "dankness": 78,
+    "virality": 72,
+    "cringe": 44,
+    "longevity": 55,
+    "power": 83
+  },
+  {
+    "id": 27,
+    "name": "Perfect Development Pipeline",
+    "img": "myBodyIsAMachine.jpg",
+    "dankness": 79,
+    "virality": 74,
+    "cringe": 36,
+    "longevity": 53,
+    "power": 85
+  },
+  {
+    "id": 28,
+    "name": "Console-Clean, Brain-Empty",
+    "img": "ohYeahOhNo.jpg",
+    "dankness": 78,
+    "virality": 71,
+    "cringe": 40,
+    "longevity": 53,
+    "power": 84
+  },
+  {
+    "id": 29,
+    "name": "Walk in AI Mordor",
+    "img": "oneDoesNotSimply.jpg",
+    "dankness": 81,
+    "virality": 73,
+    "cringe": 39,
+    "longevity": 56,
+    "power": 87
+  },
+  {
+    "id": 30,
+    "name": "String Validator: Certified Disaster Edition",
+    "img": "peterGriffinSkinColorChart.jpg",
+    "dankness": 84,
+    "virality": 75,
+    "cringe": 47,
+    "longevity": 58,
+    "power": 89
+  },
+  {
+    "id": 31,
+    "name": "Two-Minute Ticket Meltdown",
+    "img": "sadPabloEscobar.jpg",
+    "dankness": 73,
+    "virality": 68,
+    "cringe": 34,
+    "longevity": 57,
+    "power": 79
+  },
+  {
+    "id": 32,
+    "name": "Zoomer Web-Dev",
+    "img": "scoobyDooMaskReveal.jpg",
+    "dankness": 76,
+    "virality": 82,
+    "cringe": 41,
+    "longevity": 63,
+    "power": 88
+  },
+  {
+    "id": 33,
+    "name": "The Ancient Scroll of Basic HTML",
+    "img": "scrollOfTruth.jpg",
+    "dankness": 71,
+    "virality": 77,
+    "cringe": 29,
+    "longevity": 62,
+    "power": 84
+  },
+  {
+    "id": 34,
+    "name": "Schrödinger's Javascript Blame Shift",
+    "img": "skinnerOutOfTouch.jpg",
+    "dankness": 74,
+    "virality": 81,
+    "cringe": 27,
+    "longevity": 59,
+    "power": 86
+  },
+  {
+    "id": 35,
+    "name": "Triple Menace",
+    "img": "spidermanTriple.jpg",
+    "dankness": 78,
+    "virality": 85,
+    "cringe": 22,
+    "longevity": 66,
+    "power": 91
+  },
+  {
+    "id": 36,
+    "name": "Javascript Awakening Arc",
+    "img": "squidGame.jpg",
+    "dankness": 72,
+    "virality": 79,
+    "cringe": 31,
+    "longevity": 58,
+    "power": 83
+  },
+  {
+    "id": 37,
+    "name": "NaN-Shaped Brain Engineering",
+    "img": "stupidDumbDroolingPuzzle.jpg",
+    "dankness": 79,
+    "virality": 83,
+    "cringe": 38,
+    "longevity": 61,
+    "power": 89
+  },
+  {
+    "id": 38,
+    "name": "The Var-Powered Political Menace",
+    "img": "theDon.jpg",
+    "dankness": 81,
+    "virality": 87,
+    "cringe": 36,
+    "longevity": 64,
+    "power": 92
+  },
+  {
+    "id": 39,
+    "name": "The Hello World Imposter",
+    "img": "theOfficeCongratulations.jpg",
+    "dankness": 45,
+    "virality": 85,
+    "cringe": 30,
+    "longevity": 90,
+    "power": 75
+  },
+  {
+    "id": 40,
+    "name": "The CSS Overkill Dog",
+    "img": "thisIsFine.jpg",
+    "dankness": 55,
+    "virality": 95,
+    "cringe": 40,
+    "longevity": 100,
+    "power": 80
+  },
+  {
+    "id": 41,
+    "name": "We All Have That Special Friend",
+    "img": "threeHeadedDragon.jpg",
+    "dankness": 60,
+    "virality": 88,
+    "cringe": 25,
+    "longevity": 95,
+    "power": 70
+  },
+  {
+    "id": 42,
+    "name": "The Simple Task",
+    "img": "trainHittingASchoolbus.jpg",
+    "dankness": 50,
+    "virality": 92,
+    "cringe": 15,
+    "longevity": 98,
+    "power": 85
+  },
+  {
+    "id": 43,
+    "name": "The Ghost Code Trophy",
+    "img": "trophyIfIHadOne.jpg",
+    "dankness": 52,
+    "virality": 94,
+    "cringe": 20,
+    "longevity": 97,
+    "power": 88
+  },
+  {
+    "id": 44,
+    "name": "The Executive Commit Decree",
+    "img": "trumpBillSigning.jpg",
+    "dankness": 40,
+    "virality": 96,
+    "cringe": 35,
+    "longevity": 92,
+    "power": 90
+  },
+  {
+    "id": 45,
+    "name": "Tales of A Common Student",
+    "img": "trumpMuskDown.jpg",
+    "dankness": 65,
+    "virality": 82,
+    "cringe": 99,
+    "longevity": 78,
+    "power": 80
+  },
+  {
+    "id": 46,
+    "name": "The JS Object Identity Crisis",
+    "img": "twoButtons.jpg",
+    "dankness": 58,
+    "virality": 80,
+    "cringe": 20,
+    "longevity": 10,
+    "power": 77
+  },
+  {
+    "id": 47,
+    "name": "The Front-end Bus Perspective",
+    "img": "twoGuysOnABus.jpg",
+    "dankness": 48,
+    "virality": 98,
+    "cringe": 10,
+    "longevity": 100,
+    "power": 82
+  },
+  {
+    "id": 48,
+    "name": "The Full-Skull JS Migraine",
+    "img": "typesOfHeadaches.jpg",
+    "dankness": 42,
+    "virality": 97,
+    "cringe": 15,
+    "longevity": 100,
+    "power": 95
+  },
+  {
+    "id": 49,
+    "name": "The Prompt Apocalypse",
+    "img": "xXeverywhere.jpg",
+    "dankness": 45,
+    "virality": 96,
+    "cringe": 55,
+    "longevity": 100,
+    "power": 70
+  },
+  {
+    "id": 50,
+    "name": "The Senior Hello World Developer",
+    "img": "youKnowImSomethingOfAScientistMyself.jpg",
+    "dankness": 100,
+    "virality": 100,
+    "cringe": 100,
+    "longevity": 100,
+    "power": 100
+  }
+]
