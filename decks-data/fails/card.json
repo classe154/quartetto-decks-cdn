@@ -1,0 +1,990 @@
+[
+    {
+        "codice": "A1",
+        "nome": "Il finto saluto",
+        "categoria": "Interazioni Fallite",
+        "immagine": "./img/A1-il-finto-saluto.webp",
+        "descrizione": "Salutare con entusiasmo qualcuno che in realtà stava salutando la persona dietro di te.",
+        "altri": [
+            "L'abbraccio mancato",
+            "Batti cinque fallito",
+            "Camminata imbarazzante"
+        ],
+        "statistiche": {
+            "imbarazzo": 85,
+            "probabilita": 90,
+            "dannoSociale": 30,
+            "durataTrauma": 60,
+            "resilienza": 40
+        }
+    },
+    {
+        "codice": "A2",
+        "nome": "L'abbraccio mancato",
+        "categoria": "Interazioni Fallite",
+        "immagine": "./img/A2-abbraccio-mancato.webp",
+        "descrizione": "Andare per un abbraccio mentre l’altro porge solo la mano (o viceversa).",
+        "altri": [
+            "Il finto saluto",
+            "Batti cinque fallito",
+            "Camminata imbarazzante"
+        ],
+        "statistiche": {
+            "imbarazzo": 95,
+            "probabilita": 75,
+            "dannoSociale": 40,
+            "durataTrauma": 70,
+            "resilienza": 30
+        }
+    },
+    {
+        "codice": "A3",
+        "nome": "Batti cinque fallito",
+        "categoria": "Interazioni Fallite",
+        "immagine": "./img/A3-batti-cinque-fallito.webp",
+        "descrizione": "Provare a dare il batti cinque a qualcuno ma lui è già girato dall'altra parte.",
+        "altri": [
+            "Il finto saluto",
+            "L'abbraccio mancato",
+            "Camminata imbarazzante"
+        ],
+        "statistiche": {
+            "imbarazzo": 80,
+            "probabilita": 65,
+            "dannoSociale": 50,
+            "durataTrauma": 40,
+            "resilienza": 60
+        }
+    },
+    {
+        "codice": "A4",
+        "nome": "Camminata imbarazzante",
+        "categoria": "Interazioni Fallite",
+        "immagine": "./img/A4-camminata-imbarazzante.webp",
+        "descrizione": "Salutarsi con convinzione e poi iniziare a camminare nella stessa direzione.",
+        "altri": [
+            "Il finto saluto",
+            "L'abbraccio mancato",
+            "Batti cinque fallito"
+        ],
+        "statistiche": {
+            "imbarazzo": 70,
+            "probabilita": 85,
+            "dannoSociale": 20,
+            "durataTrauma": 30,
+            "resilienza": 80
+        }
+    },
+    {
+        "codice": "B1",
+        "nome": "Dimenticare il nome",
+        "categoria": "Vuoti di Memoria",
+        "immagine": "./img/B1-dimenticare-il-nome.webp",
+        "descrizione": "Presentare un tuo caro amico a qualcuno e realizzare di avere un vuoto totale sul suo nome.",
+        "altri": [
+            "Memoria a breve termine",
+            "Confusione fisionomica",
+            "Cercare gli occhiali... in testa"
+        ],
+        "statistiche": {
+            "imbarazzo": 90,
+            "probabilita": 60,
+            "dannoSociale": 70,
+            "durataTrauma": 80,
+            "resilienza": 20
+        }
+    },
+    {
+        "codice": "B2",
+        "nome": "Memoria a breve termine",
+        "categoria": "Vuoti di Memoria",
+        "immagine": "./img/B2-memoria-a-breve-termine.webp",
+        "descrizione": "Qualcuno che ti conosce bene ti saluta ma tu non hai la minima idea di chi sia.",
+        "altri": [
+            "Dimenticare il nome",
+            "Confusione fisionomica",
+            "Cercare gli occhiali... in testa"
+        ],
+        "statistiche": {
+            "imbarazzo": 80,
+            "probabilita": 70,
+            "dannoSociale": 60,
+            "durataTrauma": 50,
+            "resilienza": 50
+        }
+    },
+    {
+        "codice": "B3",
+        "nome": "Confusione fisionomica",
+        "categoria": "Vuoti di Memoria",
+        "immagine": "./img/B3-confusione-fisionomica.webp",
+        "descrizione": "Confondere due persone simili ogni volta che le si incontra, scambiandole l'una per l'altra.",
+        "altri": [
+            "Dimenticare il nome",
+            "Memoria a breve termine",
+            "Cercare gli occhiali... in testa"
+        ],
+        "statistiche": {
+            "imbarazzo": 65,
+            "probabilita": 75,
+            "dannoSociale": 45,
+            "durataTrauma": 40,
+            "resilienza": 60
+        }
+    },
+    {
+        "codice": "B4",
+        "nome": "Occhiali in testa",
+        "categoria": "Vuoti di Memoria",
+        "immagine": "./img/B4-cercare-gli-occhiali-in-testa.webp",
+        "descrizione": "Disperarsi per aver perso gli occhiali mentre li stai indossando o li hai sulla fronte.",
+        "altri": [
+            "Dimenticare il nome",
+            "Memoria a breve termine",
+            "Confusione fisionomica"
+        ],
+        "statistiche": {
+            "imbarazzo": 50,
+            "probabilita": 95,
+            "dannoSociale": 10,
+            "durataTrauma": 20,
+            "resilienza": 90
+        }
+    },
+    {
+        "codice": "C1",
+        "nome": "Lo sputo involontario",
+        "categoria": "Disastri Verbali",
+        "immagine": "./img/C1-lo-sputo-involontario.webp",
+        "descrizione": "Sputare accidentalmente mentre parli animatamente in faccia a qualcuno.",
+        "altri": [
+            "Sputo da ridere",
+            "La risata a scoppio",
+            "Conversazione Bluetooth"
+        ],
+        "statistiche": {
+            "imbarazzo": 98,
+            "probabilita": 40,
+            "dannoSociale": 85,
+            "durataTrauma": 90,
+            "resilienza": 10
+        }
+    },
+    {
+        "codice": "C2",
+        "nome": "Sputo da ridere",
+        "categoria": "Disastri Verbali",
+        "immagine": "./img/C2-sputo-dal-ridere.webp",
+        "descrizione": "Bere un sorso d'acqua, sentire una battuta e nebulizzare tutto sul viso dell'altro.",
+        "altri": [
+            "Lo sputo involontario",
+            "La risata a scoppio",
+            "Conversazione Bluetooth"
+        ],
+        "statistiche": {
+            "imbarazzo": 90,
+            "probabilita": 55,
+            "dannoSociale": 75,
+            "durataTrauma": 70,
+            "resilienza": 30
+        }
+    },
+    {
+        "codice": "C3",
+        "nome": "La risata a scoppio",
+        "categoria": "Disastri Verbali",
+        "immagine": "./img/C3-la-risata-a-scoppio.webp",
+        "descrizione": "Ridere così forte da far uscire un verso nasale o un 'grugnito' involontario.",
+        "altri": [
+            "Lo sputo involontario",
+            "Sputo da ridere",
+            "Conversazione Bluetooth"
+        ],
+        "statistiche": {
+            "imbarazzo": 75,
+            "probabilita": 80,
+            "dannoSociale": 30,
+            "durataTrauma": 40,
+            "resilienza": 70
+        }
+    },
+    {
+        "codice": "C4",
+        "nome": "Conversazione Bluetooth",
+        "categoria": "Disastri Verbali",
+        "immagine": "./img/C4-conversazione-con-il-bluetooth.webp",
+        "descrizione": "Rispondere a qualcuno che ti parla, scoprendo che stava usando gli auricolari.",
+        "altri": [
+            "Lo sputo involontario",
+            "Sputo da ridere",
+            "La risata a scoppio"
+        ],
+        "statistiche": {
+            "imbarazzo": 60,
+            "probabilita": 85,
+            "dannoSociale": 15,
+            "durataTrauma": 25,
+            "resilienza": 85
+        }
+    },
+    {
+        "codice": "D1",
+        "nome": "Feto inesistente",
+        "categoria": "Gaffes Sociali",
+        "immagine": "./img/D1-il-feto-inesistente.webp",
+        "descrizione": "Chiedere 'A quando il lieto evento?' a una persona che non è affatto incinta.",
+        "altri": [
+            "Sbagliare lutto",
+            "Gaffes di parentela",
+            "L'eco del brindisi"
+        ],
+        "statistiche": {
+            "imbarazzo": 100,
+            "probabilita": 30,
+            "dannoSociale": 95,
+            "durataTrauma": 100,
+            "resilienza": 5
+        }
+    },
+    {
+        "codice": "D2",
+        "nome": "Sbagliare lutto",
+        "categoria": "Gaffes Sociali",
+        "immagine": "./img/D2-sbagliare-tutto.webp",
+        "descrizione": "Dire 'Auguri!' o 'Tante belle cose!' al parente del defunto durante un funerale.",
+        "altri": [
+            "Feto inesistente",
+            "Gaffes di parentela",
+            "L'eco del brindisi"
+        ],
+        "statistiche": {
+            "imbarazzo": 99,
+            "probabilita": 20,
+            "dannoSociale": 100,
+            "durataTrauma": 95,
+            "resilienza": 10
+        }
+    },
+    {
+        "codice": "D3",
+        "nome": "Gaffes di parentela",
+        "categoria": "Gaffes Sociali",
+        "immagine": "./img/D3-gaffes-di-parentela.webp",
+        "descrizione": "Criticare pesantemente una persona, scoprendo che è un parente stretto dell'interlocutore.",
+        "altri": [
+            "Feto inesistente",
+            "Sbagliare lutto",
+            "L'eco del brindisi"
+        ],
+        "statistiche": {
+            "imbarazzo": 95,
+            "probabilita": 45,
+            "dannoSociale": 90,
+            "durataTrauma": 85,
+            "resilienza": 15
+        }
+    },
+    {
+        "codice": "D4",
+        "nome": "L'eco del brindisi",
+        "categoria": "Gaffes Sociali",
+        "immagine": "./img/D4-l-eco-del-brindisi.webp",
+        "descrizione": "Dire 'Anche a te!' al cameriere che ti augura semplicemente 'Buon appetito'.",
+        "altri": [
+            "Feto inesistente",
+            "Sbagliare lutto",
+            "Gaffes di parentela"
+        ],
+        "statistiche": {
+            "imbarazzo": 40,
+            "probabilita": 90,
+            "dannoSociale": 5,
+            "durataTrauma": 10,
+            "resilienza": 100
+        }
+    },
+    {
+        "codice": "E1",
+        "nome": "Schermo condiviso",
+        "categoria": "Office & Work",
+        "immagine": "./img/schermo_condiviso_fatale.png",
+        "descrizione": "Condividere lo schermo in call mentre hai aperte schede di shopping o meme discutibili.",
+        "altri": [
+            "Rispondi a tutti",
+            "Microfono aperto",
+            "Papà/Mamma al capo"
+        ],
+        "statistiche": {
+            "imbarazzo": 85,
+            "probabilita": 50,
+            "dannoSociale": 65,
+            "durataTrauma": 70,
+            "resilienza": 30
+        }
+    },
+    {
+        "codice": "E2",
+        "nome": "Rispondi a tutti",
+        "categoria": "Office & Work",
+        "immagine": "./img/rispondi_a_tutti.png",
+        "descrizione": "Inviare una critica feroce su un collega cliccando per errore su 'Rispondi a tutti'.",
+        "altri": [
+            "Schermo condiviso",
+            "Microfono aperto",
+            "Papà/Mamma al capo"
+        ],
+        "statistiche": {
+            "imbarazzo": 95,
+            "probabilita": 35,
+            "dannoSociale": 98,
+            "durataTrauma": 90,
+            "resilienza": 10
+        }
+    },
+    {
+        "codice": "E3",
+        "nome": "Microfono aperto",
+        "categoria": "Office & Work",
+        "immagine": "./img/microfono_aperto.png",
+        "descrizione": "Dire qualcosa di privato o fare un rumore molesto credendo di essere in modalità mute.",
+        "altri": [
+            "Schermo condiviso",
+            "Rispondi a tutti",
+            "Papà/Mamma al capo"
+        ],
+        "statistiche": {
+            "imbarazzo": 90,
+            "probabilita": 65,
+            "dannoSociale": 70,
+            "durataTrauma": 75,
+            "resilienza": 25
+        }
+    },
+    {
+        "codice": "E4",
+        "nome": "Il Papà/Mamma al capo",
+        "categoria": "Office & Work",
+        "immagine": "./img/il_papa_mamma_al_capo.png",
+        "descrizione": "Chiamare il proprio superiore 'Mamma' o 'Papà' per abitudine o lapsus familiare.",
+        "altri": [
+            "Schermo condiviso",
+            "Rispondi a tutti",
+            "Microfono aperto"
+        ],
+        "statistiche": {
+            "imbarazzo": 85,
+            "probabilita": 40,
+            "dannoSociale": 40,
+            "durataTrauma": 60,
+            "resilienza": 50
+        }
+    },
+    {
+        "codice": "F1",
+        "nome": "La porta Tirare/Spingere",
+        "categoria": "Incidenti di Percorso",
+        "immagine": "./img/la_porta_tirare_spingere.png",
+        "descrizione": "Spingere con forza una porta dove c’è scritto chiaramente 'Tirare' davanti a una folla.",
+        "altri": [
+            "Premio ultimo arrivato",
+            "Vetro invisibile",
+            "Inciampo sul nulla"
+        ],
+        "statistiche": {
+            "imbarazzo": 55,
+            "probabilita": 95,
+            "dannoSociale": 10,
+            "durataTrauma": 15,
+            "resilienza": 95
+        }
+    },
+    {
+        "codice": "F2",
+        "nome": "Vincere l'ultimo arrivato",
+        "categoria": "Incidenti di Percorso",
+        "immagine": "./img/vincere_ultimo_arrivato.png",
+        "descrizione": "Entrare in una sala riunioni silenziosa con ritardo e le scarpe che scricchiolano fortissimo.",
+        "altri": [
+            "La porta Tirare/Spingere",
+            "Vetro invisibile",
+            "Inciampo sul nulla"
+        ],
+        "statistiche": {
+            "imbarazzo": 75,
+            "probabilita": 70,
+            "dannoSociale": 35,
+            "durataTrauma": 45,
+            "resilienza": 55
+        }
+    },
+    {
+        "codice": "F3",
+        "nome": "Vetro invisibile",
+        "categoria": "Incidenti di Percorso",
+        "immagine": "./img/vetro_invisibile.png",
+        "descrizione": "Andare a sbattere contro una vetrata pulita troppo bene davanti a dei passanti attoniti.",
+        "altri": [
+            "La porta Tirare/Spingere",
+            "Premio ultimo arrivato",
+            "Inciampo sul nulla"
+        ],
+        "statistiche": {
+            "imbarazzo": 85,
+            "probabilita": 45,
+            "dannoSociale": 30,
+            "durataTrauma": 55,
+            "resilienza": 40
+        }
+    },
+    {
+        "codice": "F4",
+        "nome": "Inciampo sul nulla",
+        "categoria": "Incidenti di Percorso",
+        "immagine": "./img/inciampo_sul_nulla.png",
+        "descrizione": "Barcollare vistosamente su una superficie piana e spacciarlo per un accenno di corsa.",
+        "altri": [
+            "La porta Tirare/Spingere",
+            "Premio ultimo arrivato",
+            "Vetro invisibile"
+        ],
+        "statistiche": {
+            "imbarazzo": 65,
+            "probabilita": 98,
+            "dannoSociale": 15,
+            "durataTrauma": 20,
+            "resilienza": 85
+        }
+    },
+    {
+        "codice": "G1",
+        "nome": "Like tattico fatale",
+        "categoria": "Digital Fail",
+        "immagine": "./img/like_tattico_fatale.png",
+        "descrizione": "Mettere like per errore a una vecchia foto dell'ex mentre facevi 'investigazioni' notturne.",
+        "altri": [
+            "Sbagliare chat",
+            "Vocale alla cieca",
+            "Musica a palla"
+        ],
+        "statistiche": {
+            "imbarazzo": 95,
+            "probabilita": 60,
+            "dannoSociale": 50,
+            "durataTrauma": 95,
+            "resilienza": 20
+        }
+    },
+    {
+        "codice": "G2",
+        "nome": "Sbagliare chat",
+        "categoria": "Digital Fail",
+        "immagine": "./img/sbagliare_chat.png",
+        "descrizione": "Inviare lo screenshot di una conversazione proprio alla persona di cui stavi spettegolando.",
+        "altri": [
+            "Like tattico fatale",
+            "Vocale alla cieca",
+            "Musica a palla"
+        ],
+        "statistiche": {
+            "imbarazzo": 98,
+            "probabilita": 45,
+            "dannoSociale": 99,
+            "durataTrauma": 90,
+            "resilienza": 5
+        }
+    },
+    {
+        "codice": "G3",
+        "nome": "Vocale alla cieca",
+        "categoria": "Digital Fail",
+        "immagine": "./img/vocale_alla_cieca.png",
+        "descrizione": "Registrare uno sfogo di 3 minuti, per poi accorgerti che non hai mai premuto rec.",
+        "altri": [
+            "Like tattico fatale",
+            "Sbagliare chat",
+            "Musica a palla"
+        ],
+        "statistiche": {
+            "imbarazzo": 30,
+            "probabilita": 70,
+            "dannoSociale": 0,
+            "durataTrauma": 40,
+            "resilienza": 80
+        }
+    },
+    {
+        "codice": "G4",
+        "nome": "Musica a palla",
+        "categoria": "Digital Fail",
+        "immagine": "./img/musica_a_palla.png",
+        "descrizione": "Partenza improvvisa di un video social a volume massimo in un luogo pubblico silenzioso.",
+        "altri": [
+            "Like tattico fatale",
+            "Sbagliare chat",
+            "Vocale alla cieca"
+        ],
+        "statistiche": {
+            "imbarazzo": 75,
+            "probabilita": 90,
+            "dannoSociale": 20,
+            "durataTrauma": 30,
+            "resilienza": 70
+        }
+    },
+    {
+        "codice": "H1",
+        "nome": "Patta aperta",
+        "categoria": "Abbigliamento",
+        "immagine": "./img/patta_aperta.png",
+        "descrizione": "Parlare in maniera disinvolta fino a che ti accorgi che hai la zip abbassata da ore.",
+        "altri": [
+            "Gonna nella biancheria",
+            "Prezzo in vista",
+            "Maglia al rovescio"
+        ],
+        "statistiche": {
+            "imbarazzo": 90,
+            "probabilita": 75,
+            "dannoSociale": 35,
+            "durataTrauma": 55,
+            "resilienza": 45
+        }
+    },
+    {
+        "codice": "H2",
+        "nome": "Gonna incastrata",
+        "categoria": "Abbigliamento",
+        "immagine": "./img/H2-gonna-incastrata.webp",
+        "descrizione": "Uscire dal bagno con la gonna infilata nelle mutande senza accorgertene.",
+        "altri": [
+            "Patta aperta",
+            "Prezzo in vista",
+            "Maglia al rovescio"
+        ],
+        "statistiche": {
+            "imbarazzo": 96,
+            "probabilita": 40,
+            "dannoSociale": 60,
+            "durataTrauma": 85,
+            "resilienza": 20
+        }
+    },
+    {
+        "codice": "H3",
+        "nome": "Prezzo in vista",
+        "categoria": "Abbigliamento",
+        "immagine": "./img/H3-prezzo-in-vista.webp",
+        "descrizione": "Accorgersi dopo due ore che il vestito nuovo ha ancora l'etichetta col prezzo visibile.",
+        "altri": [
+            "Patta aperta",
+            "Gonna nella biancheria",
+            "Maglia al rovescio"
+        ],
+        "statistiche": {
+            "imbarazzo": 50,
+            "probabilita": 85,
+            "dannoSociale": 15,
+            "durataTrauma": 25,
+            "resilienza": 90
+        }
+    },
+    {
+        "codice": "H4",
+        "nome": "Maglia al rovescio",
+        "categoria": "Abbigliamento",
+        "immagine": "./img/H4-maglia-al-rovescio.webp",
+        "descrizione": "Accorgersi solo a fine giornata di aver indossato i vestiti al contrario, etichetta fuori.",
+        "altri": [
+            "Patta aperta",
+            "Gonna nella biancheria",
+            "Prezzo in vista"
+        ],
+        "statistiche": {
+            "imbarazzo": 60,
+            "probabilita": 80,
+            "dannoSociale": 20,
+            "durataTrauma": 35,
+            "resilienza": 80
+        }
+    },
+    {
+        "codice": "I1",
+        "nome": "Lo strappo fatale",
+        "categoria": "Disastri Fisici",
+        "immagine": "./img/I1-lo-strappo-fatale.webp",
+        "descrizione": "Chinarsi per raccogliere qualcosa e sentire il rumore dei pantaloni che cedono proprio lì.",
+        "altri": [
+            "Il calzino bucato",
+            "Tacchi incastrati",
+            "Il prezzemolo traditore"
+        ],
+        "statistiche": {
+            "imbarazzo": 98,
+            "probabilita": 35,
+            "dannoSociale": 70,
+            "durataTrauma": 80,
+            "resilienza": 15
+        }
+    },
+    {
+        "codice": "I2",
+        "nome": "Il calzino bucato",
+        "categoria": "Disastri Fisici",
+        "immagine": "./img/I2-calzino-bucato.webp",
+        "descrizione": "Dovere togliere le scarpe a casa di altri e rivelare un alluce che sbuca prepotente.",
+        "altri": [
+            "Lo strappo fatale",
+            "Tacchi incastrati",
+            "Il prezzemolo traditore"
+        ],
+        "statistiche": {
+            "imbarazzo": 85,
+            "probabilita": 60,
+            "dannoSociale": 45,
+            "durataTrauma": 50,
+            "resilienza": 40
+        }
+    },
+    {
+        "codice": "I3",
+        "nome": "Tacchi incastrati",
+        "categoria": "Disastri Fisici",
+        "immagine": "./img/I3-tacchi-incastrati.webp",
+        "descrizione": "Rimanere bloccata in un tombino o in una grata con i tacchi mentre cammini sicura.",
+        "altri": [
+            "Lo strappo fatale",
+            "Il calzino bucato",
+            "Il prezzemolo traditore"
+        ],
+        "statistiche": {
+            "imbarazzo": 75,
+            "probabilita": 55,
+            "dannoSociale": 30,
+            "durataTrauma": 40,
+            "resilienza": 65
+        }
+    },
+    {
+        "codice": "I4",
+        "nome": "Prezzemolo traditore",
+        "categoria": "Disastri Fisici",
+        "immagine": "./img/prezzemolo_traditore.png",
+        "descrizione": "Fare un intero appuntamento galante con un pezzo di verde gigante tra gli incisivi.",
+        "altri": [
+            "Lo strappo fatale",
+            "Il calzino bucato",
+            "Tacchi incastrati"
+        ],
+        "statistiche": {
+            "imbarazzo": 90,
+            "probabilita": 85,
+            "dannoSociale": 50,
+            "durataTrauma": 70,
+            "resilienza": 30
+        }
+    },
+    {
+        "codice": "J1",
+        "nome": "L'amico fantasma",
+        "categoria": "Malintesi Pubblici",
+        "immagine": "./img/J1-l-amico-fantasma.webp",
+        "descrizione": "Parlare del più e del meno col tuo amico, girarsi e trovare perfetti sconosciuti accanto.",
+        "altri": [
+            "Entrare nell'auto altrui",
+            "Sbagliare citofono",
+            "Allarme ingiusto"
+        ],
+        "statistiche": {
+            "imbarazzo": 70,
+            "probabilita": 75,
+            "dannoSociale": 20,
+            "durataTrauma": 30,
+            "resilienza": 85
+        }
+    },
+    {
+        "codice": "J2",
+        "nome": "Auto altrui",
+        "categoria": "Malintesi Pubblici",
+        "immagine": "./img/J2-auto-altrui.webp",
+        "descrizione": "Salire sul sedile del passeggero di un’auto identica alla tua, spaventando il guidatore.",
+        "altri": [
+            "L'amico fantasma",
+            "Sbagliare citofono",
+            "Allarme ingiusto"
+        ],
+        "statistiche": {
+            "imbarazzo": 88,
+            "probabilita": 40,
+            "dannoSociale": 55,
+            "durataTrauma": 65,
+            "resilienza": 35
+        }
+    },
+    {
+        "codice": "J3",
+        "nome": "Sbagliare citofono",
+        "categoria": "Malintesi Pubblici",
+        "immagine": "./img/J3-suonare-con-insistenza.webp",
+        "descrizione": "Suonare con insistenza al vicino pensando sia casa tua e iniziare a urlare 'Apri!'.",
+        "altri": [
+            "L'amico fantasma",
+            "Entrare nell'auto altrui",
+            "Allarme ingiusto"
+        ],
+        "statistiche": {
+            "imbarazzo": 80,
+            "probabilita": 50,
+            "dannoSociale": 65,
+            "durataTrauma": 55,
+            "resilienza": 40
+        }
+    },
+    {
+        "codice": "J4",
+        "nome": "Allarme ingiusto",
+        "categoria": "Malintesi Pubblici",
+        "immagine": "./img/J4-allarme-ingiusto.webp",
+        "descrizione": "Uscire tranquillamente da un negozio e fare scattare l'allarme antitaccheggio.",
+        "altri": [
+            "L'amico fantasma",
+            "Entrare nell'auto altrui",
+            "Sbagliare citofono"
+        ],
+        "statistiche": {
+            "imbarazzo": 65,
+            "probabilita": 60,
+            "dannoSociale": 45,
+            "durataTrauma": 35,
+            "resilienza": 75
+        }
+    },
+    {
+        "codice": "K1",
+        "nome": "L'ospite infinito",
+        "categoria": "Situazioni Scomode",
+        "immagine": "./img/lospite-infinito.png",
+        "descrizione": "Cercare di far capire che vuoi dormire e l'ospite continua a parlare per ore ignorando i segnali.",
+        "altri": [
+            "Bagno occupato",
+            "La sveglia inopportuna",
+            "Rumori intestinali"
+        ],
+        "statistiche": {
+            "imbarazzo": 50,
+            "probabilita": 80,
+            "dannoSociale": 15,
+            "durataTrauma": 25,
+            "resilienza": 60
+        }
+    },
+    {
+        "codice": "K2",
+        "nome": "Bagno occupato",
+        "categoria": "Situazioni Scomode",
+        "immagine": "./img/bagno_occupato.png",
+        "descrizione": "Aprire con sicurezza la porta di un bagno pubblico dimenticato aperto, trovandoci qualcuno.",
+        "altri": [
+            "L'ospite infinito",
+            "La sveglia inopportuna",
+            "Rumori intestinali"
+        ],
+        "statistiche": {
+            "imbarazzo": 95,
+            "probabilita": 55,
+            "dannoSociale": 60,
+            "durataTrauma": 75,
+            "resilienza": 30
+        }
+    },
+    {
+        "codice": "K3",
+        "nome": "Sveglia inopportuna",
+        "categoria": "Situazioni Scomode",
+        "immagine": "./img/K3-la-suoneria-inopportuna.webp",
+        "descrizione": "Sveglia con suoneria ridicola che suona durante un momento solenne (matrimonio o silenzio).",
+        "altri": [
+            "L'ospite infinito",
+            "Bagno occupato",
+            "Rumori intestinali"
+        ],
+        "statistiche": {
+            "imbarazzo": 92,
+            "probabilita": 45,
+            "dannoSociale": 70,
+            "durataTrauma": 80,
+            "resilienza": 20
+        }
+    },
+    {
+        "codice": "K4",
+        "nome": "Rumori intestinali",
+        "categoria": "Situazioni Scomode",
+        "immagine": "./img/K4-rumori-imbarazzanti.webp",
+        "descrizione": "Un silenzio di gruppo interrotto da un brontolio dello stomaco che sembra un terremoto.",
+        "altri": [
+            "L'ospite infinito",
+            "Bagno occupato",
+            "La sveglia inopportuna"
+        ],
+        "statistiche": {
+            "imbarazzo": 85,
+            "probabilita": 85,
+            "dannoSociale": 25,
+            "durataTrauma": 45,
+            "resilienza": 55
+        }
+    },
+    {
+        "codice": "L1",
+        "nome": "Nome dell'ex",
+        "categoria": "Cuore & Relazioni",
+        "immagine": "./img/L1-il-nome-dell-ex.webp",
+        "descrizione": "Chiamare il nuovo partner con il nome dell'ex durante un momento intimo.",
+        "altri": [
+            "Il Ti amo precoce",
+            "Carta declinata",
+            "Direzione opposta"
+        ],
+        "statistiche": {
+            "imbarazzo": 100,
+            "probabilita": 25,
+            "dannoSociale": 98,
+            "durataTrauma": 100,
+            "resilienza": 5
+        }
+    },
+    {
+        "codice": "L2",
+        "nome": "Ti amo precoce",
+        "categoria": "Cuore & Relazioni",
+        "immagine": "./img/L2-ti-amo-precoce.webp",
+        "descrizione": "Dire 'Ti amo' per errore dopo soli tre giorni di frequentazione per un lapsus.",
+        "altri": [
+            "Nome dell'ex",
+            "Carta declinata",
+            "Direzione opposta"
+        ],
+        "statistiche": {
+            "imbarazzo": 92,
+            "probabilita": 35,
+            "dannoSociale": 75,
+            "durataTrauma": 85,
+            "resilienza": 25
+        }
+    },
+    {
+        "codice": "L3",
+        "nome": "Carta declinata",
+        "categoria": "Cuore & Relazioni",
+        "immagine": "./img/carta_declinata.png",
+        "descrizione": "Transazione rifiutata tre volte mentre c’è una fila chilometrica dietro di te.",
+        "altri": [
+            "Nome dell'ex",
+            "Il Ti amo precoce",
+            "Direzione opposta"
+        ],
+        "statistiche": {
+            "imbarazzo": 85,
+            "probabilita": 65,
+            "dannoSociale": 40,
+            "durataTrauma": 50,
+            "resilienza": 45
+        }
+    },
+    {
+        "codice": "L4",
+        "nome": "Direzione opposta",
+        "categoria": "Cuore & Relazioni",
+        "immagine": "./img/L4-direzione-opposta.webp",
+        "descrizione": "Salire sul treno o metro nel verso contrario con estrema e visibile sicurezza.",
+        "altri": [
+            "Nome dell'ex",
+            "Il Ti amo precoce",
+            "Carta declinata"
+        ],
+        "statistiche": {
+            "imbarazzo": 55,
+            "probabilita": 90,
+            "dannoSociale": 10,
+            "durataTrauma": 20,
+            "resilienza": 95
+        }
+    },
+    {
+        "codice": "M1",
+        "nome": "Parte sbagliata",
+        "categoria": "Public Performance",
+        "immagine": "./img/M1-cantare-la-parte-sbagliata.webp",
+        "descrizione": "Cantare a squaragola la parte sbagliata di una canzone durante un concerto silenzioso.",
+        "altri": [
+            "Applauso solitario",
+            "Sguardo nello specchio",
+            "Saluto al sosia"
+        ],
+        "statistiche": {
+            "imbarazzo": 88,
+            "probabilita": 55,
+            "dannoSociale": 45,
+            "durataTrauma": 60,
+            "resilienza": 45
+        }
+    },
+    {
+        "codice": "M2",
+        "nome": "Applauso solitario",
+        "categoria": "Public Performance",
+        "immagine": "./img/M2-applauso-solitario.webp",
+        "descrizione": "Iniziare ad applaudire con vigore quando assolutamente nessun altro lo sta facendo.",
+        "altri": [
+            "Parte sbagliata",
+            "Sguardo nello specchio",
+            "Saluto al sosia"
+        ],
+        "statistiche": {
+            "imbarazzo": 82,
+            "probabilita": 70,
+            "dannoSociale": 35,
+            "durataTrauma": 45,
+            "resilienza": 60
+        }
+    },
+    {
+        "codice": "M3",
+        "nome": "Sguardo nello specchio",
+        "categoria": "Public Performance",
+        "immagine": "./img/M3-sguardo-nello-specchio.webp",
+        "descrizione": "Fare facce buffe davanti a un vetro convinto sia oscurato, scoprendo gente dall'altra parte.",
+        "altri": [
+            "Parte sbagliata",
+            "Applauso solitario",
+            "Saluto al sosia"
+        ],
+        "statistiche": {
+            "imbarazzo": 95,
+            "probabilita": 45,
+            "dannoSociale": 55,
+            "durataTrauma": 75,
+            "resilienza": 30
+        }
+    },
+    {
+        "codice": "M4",
+        "nome": "Saluto al sosia",
+        "categoria": "Public Performance",
+        "immagine": "./img/M4-saluto-al-sosia.webp",
+        "descrizione": "Inseguire qualcuno, toccargli la spalla con confidenza e trovarsi davanti uno sconosciuto terrorizzato.",
+        "altri": [
+            "Parte sbagliata",
+            "Applauso solitario",
+            "Sguardo nello specchio"
+        ],
+        "statistiche": {
+            "imbarazzo": 90,
+            "probabilita": 60,
+            "dannoSociale": 65,
+            "durataTrauma": 70,
+            "resilienza": 35
+        }
+    }
+]
